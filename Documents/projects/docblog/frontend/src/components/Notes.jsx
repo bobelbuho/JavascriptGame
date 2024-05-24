@@ -10,7 +10,7 @@ function Note ({ note, onDelete}) {
             <p className="note-content">{note.content}</p>
             <p className="note-date">{formattedDated}</p>
             <button className="delete-button" onClick={() => onDelete(note.id)}>
-                Delete
+                Delete Now
             </button>
         </div>
     );
